@@ -28,13 +28,11 @@ You need to have **Node.js** installed on your machine. You can download it from
 1. Clone the repository:
    ```bash
    git clone https://github.com/Dikshant-Yadav/My-Portfolio.git
- ```bash
-cd My-Portfolio
+cd My-Portfolio 
+2.Install dependencies:
+   ```bash
+   npm install
 
-Install dependencies:
-```bash
-npm install
-
-Run the development server:
+3.Run the development server:
 ```bash
 npm run dev
