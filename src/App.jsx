@@ -4,7 +4,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 
 import About from './sections/About';
-import TechStack from './sections/TechStack';
+import TechStack from './sections/Techstack';
 import Projects from './sections/Projects';
 import Resume from './sections/Resume';
 import Contact from './sections/Contact';
