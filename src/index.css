@@ -1,0 +1,59 @@
+/* Smooth scrolling */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root theme variables */
+:root {
+  --bg-dark: #131313;
+  --text-light: #F2F2F2;
+  --highlight: #00BFFF;
+  --accent: white;
+  --text2:"Major Mono Display"
+  --cs:wheat
+}
+
+/* Body styling */
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  background-attachment: fixed;
+}
+
+/* Heading fonts */
+h1, h2, h3, h4, h5 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Optional: Anchor styling (if you want links styled in theme) */
+a {
+  color: var(--highlight);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent);
+}
+main{
+  background-color: hsl(30, 11%, 16%);
+}
+
+
+selector {
+  cursor:  url;
+}

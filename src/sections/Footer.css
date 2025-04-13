@@ -1,0 +1,128 @@
+.astro-footer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25) center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family:"Major Mono Display" ,'Poppins', sans-serif;
+    scroll-snap-align: start;
+  }
+  
+  .footer-overlay {
+    background: rgba(30, 30, 30, 0.7);
+    backdrop-filter: blur(8px);
+    width: 90%;
+    max-width: 1200px;
+    padding: 64px 48px;
+    border-radius: 12px;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to right, transparent, var(--accent), transparent) 1;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Align each column differently */
+  .footer-column.left {
+    justify-content: flex-start;
+  }
+  .footer-column.middle {
+    justify-content: center;
+  }
+  .footer-column.right {
+    justify-content: flex-end;
+  }
+  
+  .footer-column h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  .footer-column h3:hover {
+   
+    color:var(--accent);
+  
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    font-size: 15px;
+    color: #cccccc;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    line-height: 1.6;
+  }
+  
+  .footer-column a:hover {
+    color: var(--accent);
+  }
+  
+  .footer-socials {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .footer-socials a {
+    font-size: 18px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-socials a:hover {
+    color: var(--accent);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    color: #bbbbbb;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+  }
+  
+  .footer-bottom a {
+    margin: 0 12px;
+    color: #cccccc;
+    font-size: 13px;
+  }
+  
+  .footer-bottom a:hover {
+    color: var(--accent);
+  }
+  
+  @media (max-width: 768px) {
+    .footer-columns {
+      flex-direction: column;
+      gap: 32px;
+    }
+  
+    .footer-overlay {
+      padding: 48px 24px;
+    }
+  
+    .footer-column {
+      justify-content: center !important;
+    }
+  }
+  
