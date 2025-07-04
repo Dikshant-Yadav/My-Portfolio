@@ -20,8 +20,8 @@ html {
   --text-light: #F2F2F2;
   --highlight: #00BFFF;
   --accent: white;
-  --text2:"Major Mono Display"
-  --cs:wheat
+  --text2:"Major Mono Display";
+  --cs:wheat;
 }
 
 /* Body styling */
