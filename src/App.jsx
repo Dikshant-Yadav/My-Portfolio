@@ -2,7 +2,7 @@
 import React from 'react';
 import './index.css';
 import Navbar from './components/Navbar';
-
+import './styles/colors.css';
 import About from './sections/About';
 import TechStack from './sections/Techstack';
 import Projects from './sections/Projects';
